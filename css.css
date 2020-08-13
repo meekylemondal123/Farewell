@@ -1,0 +1,333 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    scroll-behavior: smooth;
+}
+
+
+@font-face{
+    font-family: "Star Wars Font";
+    src: url("Fonts/DISTGRG_.ttf");
+    src: url("Fonts/DISTGRG_.ttf")
+}
+
+@font-face{
+    font-family: "Heebo";
+    src: url("Fonts/static/Heebo-Regular.ttf");
+}
+
+@font-face{
+    font-family: "Heebo Bold";
+    src: url("Fonts/static/Heebo-Bold.ttf");
+}
+
+.top{
+    background-image: url("Images/intro-background.png");
+    width: 100%;
+    height: 780px;
+    padding-top: 20px;   
+}
+
+.introduction{
+    width: 98%;
+    height: 600px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 15px double rgb(255, 255, 0);
+    background-color: rgb(16, 0, 27);
+}
+
+.introduction h1{
+    color: yellow;
+    text-align: center;
+    padding-top: 65px;
+    font-size: 72px;
+    line-height: 120px;
+    letter-spacing: 8px;  
+    font-family: "Star Wars Font", Arial, sans-serif;
+}
+
+.introduction p{
+    color: yellow;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Star Wars Font", Arial, sans-serif;
+}
+
+.introduction img{
+    position: relative; 
+    width: 40px;
+    height: 40px;
+    left: 700px;
+    top: -10px;
+}
+
+.beginning-message{
+    width: 90%;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 125px;
+    margin-bottom: 125px;
+    border: 10px solid rgb(255, 215, 0);
+    box-shadow: 0px 0px 5px 5px gray;
+    background-color: rgb(240, 240, 240);
+}
+
+.beginning-message h1, .arc-timeline h1{
+    text-align: center;
+    font-family: "Heebo Bold", Arial, sans-serif;
+    font-size: 48px;
+    color: rgb(255, 215, 0);
+}
+
+.beginning-message p{
+    font-family: "Heebo", Arial, sans-serif;
+    font-size: 32px;
+    margin: 0 auto;
+    padding-left: 75px;
+    padding-right: 75px;    
+}
+
+
+.arc-timeline{
+    margin: 0 auto;
+    margin-bottom: 125px;
+    width: 750px;
+    height: 550px;
+    border: 10px solid rgb(255, 215, 0);
+    box-shadow: 0 0 5px 5px gray;
+    font-family: "Heebo", Arial, sans-serif;
+}
+
+
+#table-of-contents li{
+    font-size: 24px;
+}
+
+#table-of-contents li:hover{
+    color: rgb(207, 181, 59);
+    text-decoration: underline;
+}
+
+#simple-introduction, #arc-1, #arc-2, #arc-3, #exam-special, #ottawa-special, #arc-4, #arc-5, #outro{
+    display: none;
+}
+
+#simple-introduction h1, #arc-1 h1, #arc-2 h1, #arc-3 h1, #exam-special h1, #ottawa-special h1, #arc-4 h1, #arc-5 h1, #outro h1{
+    font-size: 26px;
+    color: rgb(207, 181, 59);
+    text-decoration: underline;
+}
+
+#simple-introduction p{
+    padding-top: 45px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 22px;
+}
+
+#arc-1 p{
+    padding-top: 12px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 22px;
+}
+
+#arc-2 p{
+    padding-top: 12px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#arc-3 p{
+    padding-top: 12px;
+    padding-bottom: 148px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+#exam-special p{
+    padding-top: 12px;
+    padding-bottom: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+#ottawa-special p{
+    padding-top: 12px;
+    padding-bottom: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+#arc-4 p{
+    padding-top: 12px;
+    padding-bottom: 17px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 19px;
+}
+
+#arc-5 p{
+    padding-top: 12px;
+    padding-bottom: 22px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;  
+}
+
+#outro p{
+    padding-top: 12px;
+    padding-bottom: 31px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+#back-button{
+    display: inline;
+    font-family: "Heebo", Arial, sans-serif;
+    font-weight: normal;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    color: rgb(207, 181, 59);
+    margin: 0;
+    padding: 0;
+}
+
+#next-button{
+    display: inline;
+    font-family: "Heebo", Arial, sans-serif;
+    font-weight: normal;
+    position: relative;
+    top: 10px;
+    left: 550px;
+    color: rgb(207, 181, 59);
+    margin: 0;
+    padding: 0;
+
+}
+
+#menu-button{
+    display: inline;
+    font-family: "Heebo", Arial, sans-serif;
+    font-weight: normal;
+    position: relative;
+    top: 10px;
+    left: 285px;
+    color: rgb(207, 181, 59);
+    margin: 0;
+    padding: 0;
+}
+
+#back-button:hover, #next-button:hover, #menu-button:hover{
+    text-decoration: underline;
+}
+
+.final-goodbye{
+    width: 90%;
+    height: 650px;
+    background-color: lightpink;
+    margin: 0 auto;
+    margin-bottom: 125px;
+    border: 4px solid lightsalmon; 
+}
+
+.final-goodbye h1{
+    font-family: "Heebo Bold", Arial, sans-serif;
+    text-align: center;
+    font-size: 48px;
+    color: rgb(138, 43, 226);
+}
+.final-goodbye img{
+    position: relative;
+    width: 550px;
+    height: 500px;
+    top: -425px;
+    left: 725px;
+    box-shadow: 10px 10px purple;
+}
+
+.final-goodbye p{
+    top: 20px; 
+    left: 45px;
+    position: relative;
+    font-family: "Heebo", Arial, sans-serif;
+    font-size: 22px;
+    color: purple;
+
+}
+
+.wholesome-time{
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgb(218, 112, 214);
+    margin-bottom: 125px;
+}
+
+.wholesome-time h1 {
+    padding-top: 25px;
+    text-align: center;
+    font-family: "Heebo Bold", Arial, sans-serif;
+    font-size: 48px;
+}
+
+.wholesome-time p{
+    text-align: center;
+    padding-right: 45px;
+    padding-left: 45px;
+    font-family: "Heebo", Arial, sans-serif;
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+
+.wholesome-time button{
+    display: block;
+    margin: 0 auto;
+    padding: 20px 40px;
+    font-family: "Heebo", Arial, sans-serif;
+    font-size: 22px;
+    background-color: rgb(255, 20, 147);
+    border-radius: 8px;
+}
+
+.wholesome-time button:hover{
+    background-image: url("Images/button-background.png");
+    background-size: 170px 85px; 
+    background-repeat: no-repeat;
+    border: 0;
+
+}
+.wholesome-time img{
+    display: block;
+    margin: 0 auto;
+    border: 0;
+    margin-bottom: 50px;
+}
+
